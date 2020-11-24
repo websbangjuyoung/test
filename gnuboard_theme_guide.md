@@ -19,6 +19,9 @@ Opera 30 이상
 - jquery
     - `jquery-3.5.1`
     - `jquery-migrate-3.3.2`
+    
 - bootstrap
     - css: `bootstrap@4.5.3`
     - js: `bootstrap@4.5.3 bundle 버젼`
+    
+- 슬라이더: `OwlCarousel2 2.3.4`
