@@ -1,9 +1,23 @@
+### 브라우저 및 모바일 지원 범위
+코드 베이스인 `bootstrap@4.5`의 지원 범위를 따른다.    
+> 지원 범위 확인 https://getbootstrap.com/docs/4.5/getting-started/browsers-devices/
+````
+Chrome 45 이상
+Firefox 38 이상
+Edge 12 이상
+iOS 9 이상
+Safari 9 이상
+Android 4.4 이상
+Opera 30 이상
+````
+- 단, IE 는 11 이상부터 지원
+- `네이버 whale` 은 크롬 브라우저 기반으로 최근 3년 이내는 출시된 버젼은 지원 
+
 ### 필수 라이브러리
 
-#### jquery
-1. jquery-3.5.1
-2. jquery-migrate-3.3.2
-
-### bootstrap
-1. css - bootstrap@4.5.3
-2. js - bootstrap@4.5.3 bundle
+- jquery
+    - `jquery-3.5.1`
+    - `jquery-migrate-3.3.2`
+- bootstrap
+    - css: `bootstrap@4.5.3`
+    - js: `bootstrap@4.5.3 bundle 버젼`
