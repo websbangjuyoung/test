@@ -55,13 +55,14 @@ Opera 30 이상
 
 - 관리자 페이지 내 환경설정 - 레이아웃 추가설정 영역 내 `추가 script, css` 에 메타 태그 등록
 > 사이트 설명 입력은 각 사이트에 맞는 적절한 문구를 넣어 주세요.  
-> 기타 추가적으로 필요한 메타 태그
 ````
 <meta name="description" content="사이트 설명 입력 (75자 이내)">
 <meta property="og:description" content="사이트 설명 입력 (75자 이내)">
 
 // 트위터 카드 사용시
 <meta name="twitter:card" content="summary">
+
+// 이 외 사이트에 필요한 메타 태그 삽입
 ````
 #### 소셜 메타 태그 관련 문서
 - 카카오톡: [링크1](https://devtalk.kakao.com/t/topic/22238?source_topic_id=102650), [링크2](https://developers.kakao.com/docs/latest/ko/message/message-template#scrap])
