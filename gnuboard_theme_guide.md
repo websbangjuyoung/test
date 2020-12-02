@@ -51,7 +51,7 @@ Opera 30 이상
 <meta property="og:image" content="https://devtalk.kakao.com/images/devtalk_.png">
 <meta property="og:description" content="카카오 데브톡. 카카오 플랫폼 서비스 관련 질문 및 답변을 올리는 개발자 커뮤니티 사이트입니다.">
 ````
-- 페이스북
+- 페이스북 (참고: [링크1](https://developers.facebook.com/docs/sharing/webmasters#markup))
 > 이미지 권장 사이즈: 가로 1200px 세로 630px
 ````
 <meta property="og:type" content="website">
@@ -65,7 +65,8 @@ Opera 30 이상
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 ````
-- 트위터
+- 트위터 (참고: [링크1](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started))
+> 이미지 권장 사이즈: 가로 400px 세로 400px (트위터 사이트 기준으로 추정된 사이즈)
 ````
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@site_account">
