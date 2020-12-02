@@ -42,38 +42,28 @@ Opera 30 이상
 > 브라우저 ie 10 이하 지원할 경우: `테마폴더/favicon.ico` (사이즈 가로 16px 세로 16px)
 
 ### 소셜 메타
-- 카카오톡 (참고: [링크1](https://devtalk.kakao.com/t/topic/22238?source_topic_id=102650), [링크2](https://developers.kakao.com/docs/latest/ko/message/message-template#scrap]) )
-> 이미지 권장 사이즈: 가로 800px 세로 800px
+
+- `head.sub.php` 파일 내 삽입된 공통 코드
+> 프로젝트 성격에 따라 수정이 필요할 수 있습니다.
+> `og_image.jpg` 는 많이 사용하는 카카오톡 이미지 권장 사이즈(가로 800px 세로 800px) 로 기본 제작합니다.
+> 페이스북 또는 트위터 공유도 같이 사용시 적정 이미지 또는 추가 작업이 필요할 수 있습니다. 
 ````
-<meta property="og:url" content="https://devtalk.kakao.com/">
-<meta property="og:title" content="Kakao DevTalk_">  
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://devtalk.kakao.com/images/devtalk_.png">
-<meta property="og:description" content="카카오 데브톡. 카카오 플랫폼 서비스 관련 질문 및 답변을 올리는 개발자 커뮤니티 사이트입니다.">
+<meta property="og:url" content="<?php echo G5_URL; ?>">
+<meta property="og:title" content="<?php echo $g5_head_title; ?>">
+<meta property="og:image" content="<?php echo G5_THEME_IMG_URL; ?>/og_image.jpg">
+<meta property="og:site_name" content="<?php echo $config['cf_title']; ?>">
 ````
-- 페이스북 (참고: [링크1](https://developers.facebook.com/docs/sharing/webmasters#markup))
-> 이미지 권장 사이즈: 가로 1200px 세로 630px
+
+- 관리자 페이지 내 환경설정 - 레이아웃 추가설정 영역 내 `추가 script, css` 에 메타 태그 등록
 ````
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://example.com/page.html">
-<meta property="og:title" content="Content Title">
-<meta property="og:image" content="https://example.com/image.jpg">
-<meta property="og:description" content="Description Here">
-<meta property="og:site_name" content="Site Name">
-<meta property="og:locale" content="en_US">
-<!-- Next tags are optional but recommended -->
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-````
-- 트위터 (참고: [링크1](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started))
-> 이미지 권장 사이즈: 가로 400px 세로 400px (트위터 사이트 기준으로 추정된 사이즈)
-````
+<meta name="description" content="사이트 설명 입력 (75자 이내)">
+<meta property="og:description" content="사이트 설명 입력 (75자 이내)">
+
+// 트위터 카드 사용시
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@site_account">
-<meta name="twitter:creator" content="@individual_account">
-<meta name="twitter:url" content="https://example.com/page.html">
-<meta name="twitter:title" content="Content Title">
-<meta name="twitter:description" content="Content description less than 200 characters">
-<meta name="twitter:image" content="https://example.com/image.jpg">
 ````
+> 소셜 메타 태그 관련 문서
+> - 카카오톡: [링크1](https://devtalk.kakao.com/t/topic/22238?source_topic_id=102650), [링크2](https://developers.kakao.com/docs/latest/ko/message/message-template#scrap])
+> - 페이스북: [링크1](https://developers.facebook.com/docs/sharing/webmasters#markup)
+> - 트위터: [링크1](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
 
