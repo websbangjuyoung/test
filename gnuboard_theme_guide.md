@@ -65,7 +65,7 @@ Opera 30 이상
 // 이 외 사이트에 필요한 메타 태그 추가
 ````
 #### 소셜 메타 태그 관련 문서
-- 카카오톡: [링크1](https://devtalk.kakao.com/t/topic/22238?source_topic_id=102650), [링크2](https://developers.kakao.com/docs/latest/ko/message/message-template#scrap])
-- 페이스북: [링크1](https://developers.facebook.com/docs/sharing/webmasters#markup)
-- 트위터: [링크1](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
+카카오톡([링크1](https://devtalk.kakao.com/t/topic/22238?source_topic_id=102650), [링크2](https://developers.kakao.com/docs/latest/ko/message/message-template#scrap]))
+, [페이스북 링크](https://developers.facebook.com/docs/sharing/webmasters#markup)
+, [트위터 링크](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
 
