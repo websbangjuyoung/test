@@ -63,8 +63,8 @@ Opera 30 이상
 // 트위터 카드 사용시
 <meta name="twitter:card" content="summary">
 ````
-> 소셜 메타 태그 관련 문서
-> - 카카오톡: [링크1](https://devtalk.kakao.com/t/topic/22238?source_topic_id=102650), [링크2](https://developers.kakao.com/docs/latest/ko/message/message-template#scrap])
-> - 페이스북: [링크1](https://developers.facebook.com/docs/sharing/webmasters#markup)
-> - 트위터: [링크1](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
+#### 소셜 메타 태그 관련 문서
+- 카카오톡: [링크1](https://devtalk.kakao.com/t/topic/22238?source_topic_id=102650), [링크2](https://developers.kakao.com/docs/latest/ko/message/message-template#scrap])
+- 페이스북: [링크1](https://developers.facebook.com/docs/sharing/webmasters#markup)
+- 트위터: [링크1](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
 
