@@ -16,7 +16,7 @@
 
 
 ## 브라우저 호환성 확인
-- 현재 사용 중인 브라우저의 HTML5 지원 범위 [링크](https://html5test.com/index.html) 
+- 현재 사용 중인 브라우저의 HTML5 지원 범위 확인 [링크](https://html5test.com/index.html) 
 - 브라우저 별 `html, css, javajscript` 의 특정 요소 또는 기능 사용 여부 확인 [링크](https://caniuse.com/)
 - `html, css, javajscript` 상세 스펙 및 브라우저 지원 범위 확인 [링크](https://developer.mozilla.org/ko/)
 
