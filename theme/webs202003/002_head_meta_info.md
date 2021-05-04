@@ -31,7 +31,9 @@
 - 카카오톡
     - 메타 태그 구성 - 스크랩 메세지 내용 참고 [링크](https://developers.kakao.com/docs/latest/ko/message/message-template#scrap])
     - 메타 태그 추가 설명 참고 [링크](https://devtalk.kakao.com/t/topic/22238?source_topic_id=102650)
-    - 미리보기(스크랩) 캐시 삭제 [링크](https://developers.kakao.com/tool/clear/og)
+    - 미리보기(스크랩) 캐시 삭제(로그인 필요) [링크](https://developers.kakao.com/tool/clear/og)
 
-- 페이스북 [링크](https://developers.facebook.com/docs/sharing/webmasters#markup)
+- 페이스북 
+    - 메태 태그 구성 [링크](https://developers.facebook.com/docs/sharing/webmasters#markup)
+    - 미리보기(스크랩) 확인(로그인 필요) [링크](https://developers.facebook.com/tools/debug)
 - 트위터 [링크](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
