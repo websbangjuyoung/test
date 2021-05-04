@@ -27,7 +27,8 @@
 
 // 이 외 사이트에 필요한 메타 태그 추가
 ````
-#### 소셜미디어 공유하기 메타 태그 관련 공식 문서
+#### 오픈 그래프 메타 태그 관련 공식 문서
+- 오픈그래프 [링크](https://ogp.me/)
 - 카카오톡
     - 메타 태그 구성 - 스크랩 메세지 내용 참고 [링크](https://developers.kakao.com/docs/latest/ko/message/message-template#scrap])
     - 메타 태그 추가 설명 참고 [링크](https://devtalk.kakao.com/t/topic/22238?source_topic_id=102650)
