@@ -29,12 +29,14 @@
 ````
 #### 오픈 그래프 메타 태그 관련 공식 문서
 - 오픈그래프 [링크](https://ogp.me/)
+    - 언어 설정 값(공식 문서엔 정해진 값은 찾지 못해 일단 페이스북 규칙에 따름) [링크](https://developers.facebook.com/docs/internationalization#locales)
+        > 값 형식:  `언어 코드(2자리)_국가 번호(2자리)`   
+        > [참고] [언어 코드 링크(ISO 639-1 Code)](https://www.loc.gov/standards/iso639-2/php/code_list.php), [국가 번호 링크(Alpha-2 code)](https://en.wikipedia.org/wiki/ISO_3166-1) 
 - 카카오톡
-    - 메타 태그 구성 - 스크랩 메세지 내용 참고 [링크](https://developers.kakao.com/docs/latest/ko/message/message-template#scrap])
+    - 메타 태그 구성::스크랩 메세지 내용 [링크](https://developers.kakao.com/docs/latest/ko/message/message-template#scrap])
     - 메타 태그 추가 설명 참고 [링크](https://devtalk.kakao.com/t/topic/22238?source_topic_id=102650)
-    - 미리보기(스크랩) 캐시 삭제(로그인 필요) [링크](https://developers.kakao.com/tool/clear/og)
-
+    - 미리보기 캐시 삭제(로그인 필요) [링크](https://developers.kakao.com/tool/clear/og)
 - 페이스북 
     - 메태 태그 구성 [링크](https://developers.facebook.com/docs/sharing/webmasters#markup)
-    - 미리보기(스크랩) 확인(로그인 필요) [링크](https://developers.facebook.com/tools/debug)
+    - 미리보기 확인(로그인 필요) [링크](https://developers.facebook.com/tools/debug)
 - 트위터 [링크](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
