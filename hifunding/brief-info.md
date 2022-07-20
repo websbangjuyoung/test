@@ -15,8 +15,8 @@
     - styles: 테마 등 범용 스타일 정의
     - types: 타입 정의
     - utils: 범용 헬퍼 함수 정의
-    - App.tsx: 리액트 최상위 컴포넌트
-    - index.tsx: 리액트 진입 컴포넌트
+    - App.tsx: 리액트 최상위 컴포넌트 (예: 페이지 별로 라우트 정의)
+    - index.tsx: 리액트 진입 컴포넌트 (예: mui / react-query / react-router-dom  등 전역으로 적용)
 - .env: 환경 설정 파일 (ex: API endpoint 정의)
 - .eslintrc.js: 스크립트 기본 문법 검사 규칙 정의
 - .prettierrc: 코딩 스타일 정의
