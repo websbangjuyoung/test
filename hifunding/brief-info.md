@@ -26,9 +26,9 @@
 
 ## node 및 패키지
 ### node
-`LTS` 버젼 사용
+`node` v16 `LTS`(gallium) 버젼 사용
 ### 패키지 매니저
-`yarn`
+`yarn` 1.22
 
 ### 주요 패키지
 - react / react-dom: 리액트 라이브러리
