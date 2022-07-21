@@ -39,7 +39,7 @@
 - dayjs: 날짜 포맷터
 - react-daum-postcode: 다음 주소 검색
 - react-hook-form: 폼처리
-- yup: 값 유효성 검사
+- yup: 폼 유효성 검사
 - react-icons: 아이콘 
 - react-imask: 값 마스킹 처리 (예: 금액일 경우 천단위로 콤마 표시)
 - react-router / react-router-dom: 라우터 처리
